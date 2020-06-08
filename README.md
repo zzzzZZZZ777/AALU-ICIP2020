@@ -8,7 +8,7 @@ This is a [PyTorch](https://pytorch.org/) implementation for the paper ["Deep Ad
 ![introfig](Reference/methods.pdf)
 
 ## Abstract
-Active learning aims at selecting and labeling as few samples as possible to train a good task model. Most existing methods rely on various heuristics to iteratively select a single sample in each active learning loop, thus cannot tackle large datasets eciently. In this paper, we propose a new batchmode active learning method, which can plug model prediction uncertainty into adversarial batch selection to ensure the selected samples are representative in unlabeled data, complementary to labeled data, and beneficial for model training. Experiments on four benchmark image datasets validate the effectiveness and effciency of the proposed method for active image classification in comparison with the state-of-theart methods.
+Active learning aims at selecting and labeling as few samples as possible to train a good task model. Most existing methods rely on various heuristics to iteratively select a single sample in each active learning loop, thus cannot tackle large datasets effciently. In this paper, we propose a new batchmode active learning method, which can plug model prediction uncertainty into adversarial batch selection to ensure the selected samples are representative in unlabeled data, complementary to labeled data, and beneficial for model training. Experiments on four benchmark image datasets validate the effectiveness and effciency of the proposed method for active image classification in comparison with the state-of-theart methods.
 
 ## Citation
 
