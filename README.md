@@ -26,8 +26,8 @@ If you think this code is useful in your research or wish to refer to the baseli
 
 ## Requirements
 
-  * PyTorch ==1.1.0
   * Python >= 3.5
+  * PyTorch ==1.1.0
   * torchvision ==0.3.0
   * numpy==1.16.4
   * scikit-learn==0.21.1
@@ -35,7 +35,12 @@ If you think this code is useful in your research or wish to refer to the baseli
 
 ## Environment
 
-The code is developed and tested under 1 NVIDIA TITAN V GPU cards on Linux environment .
+The code is developed and tested under 
+  * OS: Debian GNU/Linux 9.12 (stretch) x86_64
+  * CPU:Intel Xeon E5-2650 v4 (48) @ 2.9GHz
+  * GPU:1 NVIDIA TITAN V  cards 
+  * CUDA:V10.0.130
+  * cuDNN:7.6.4.
 
 ## Getting Start
 in preparation ...
